@@ -6,7 +6,7 @@ various policies that you will find in many file systems today.
 
 ## Architecture Overview:
 The following things will be present in the application:
-## Section1:
+#### Section1:
 This is the region outside the disks. From here you will create a disk and then
 mount/open it to perform all basic operations mentioned in section 2.
 - create disk: Creates an empty disk of size 500Mb.
@@ -16,7 +16,7 @@ to mount it.
 in section 2.
 - exit: Close the application.
 
-## Section 2:
+#### Section 2:
 This is the region inside the disk. You may have multiple disks. You will open only 1 disk
 at a time. After opening/mounting a particular disk, you will perform below mentioned
 operations in the disk:
@@ -35,7 +35,7 @@ multiple files can be opened simultaneously.
 ## Working:
 For this assignment, you have to perform operations in a menu-driven fashion as
 specified below:
-## Section 1:
+#### Section 1:
 Disk Menu:
 1. create disk
 - On press 1: Take unique disk name as input on next line.
@@ -45,7 +45,7 @@ that disk).
 3. exit
 - On press 3: Exit the application.
 
-## Section 2:
+#### Section 2:
 Mounting Menu:
 1. create file
 - On press 1: Take unique file name as input on next line.
